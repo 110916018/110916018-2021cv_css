@@ -4,126 +4,101 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jack's personal Site</title>
-    <link rel="stylesheet" href="css/style.css">
-    
+
     <style>
+        body{
+            background-color: turquoise;
+        }
         td{
             width: 500px;
             height: 200px;
             background-color: aqua;
-            background-image: url 
+            
         }
-
-        tr{
-            width: 500px;
-            height: 10px;
-            background-color: royalblue;
-            background-image: url 
-        }
-
-        tbody{
-            width: 500px;
-            height: 300px;
-            background-color: turquoise;
-            background-image: url 
+        
+        h1{
+            background-color: gold;
         }
 
         a:link{
-            color:cornflowerblue;
+            color:deepskyblue;
         }
 
         a:visited{
-            color:gold ;
+            color:orchid;
         }
 
         a:hover{
-            color:lightsalmon;
+            color:darkviolet;
+        }
+        
+        div.place{
+            position: absolute;
+            top: 120px;
+            right:400pt;
+            width: 150px;
+            height: 50px;
+        }
+        
+        div.position{
+            position: absolute;
+            top: 120px;
+            right:150pt;
+            width: 150px;
+            height: 50px;
+        }
+        
+         div.a-rod{
+            position: absolute;
+            top: 200px;
+            right: 15px;
+            height: 100px;
         }
     </style>
-    
 </head>
 <body>
-    <table celspacimg="20">
-        <tr>
-            <td><h1 align="center"><b><strong><p style="color:rgb(25, 0, 255);">章宸輔</b></p></strong></h1>
-                
-                <br>
-                <p style="color: orange; "align="center"><b>NTUE</p>
-                <p align="center"><em><b><strong>Computer science</strong></b></em></p>
-            </td>
-            
-            <td align="center"> <img src="image/本人照片-modified.png" alt="本人照片" width="300px"></td>
-            
-            <td align="center">
-               <img src="image/月老_(電影).jpg" alt="月老" width="300px">
-            </td>
-        </tr>
-    </table>
-    <hr>
-    <div class="position">
-        <h2>職位</h2>
-            <p>    
-                <li><b>國立台北教育大學資科系學生</b></li> 
-                <li><b><a href="https://www.facebook.com/NTUEskating.go/">國北直排輪社</a>社長</b></li>
-            </p>
-    </div>    
     
-    <hr>
-        <p><b><a href="My Sports.html" >Sports I like</a></b></p>  
-        <p><b><a href="contacts.html" > contacts me</a></b></p>
-    <hr>
+    <h1>
+        <p style="color: blue;">The Sports I Like</p>
     
-    <div class="work_experience">
-        <h3><b>工作經驗</b></h3>
-            <table>
-                <thead>
-                    <tr>
-                        <th align="center">Time</th>
-                        <th align="center">Work</th>
-                    </tr>
-                </thead> 
-                
-                <tbody>
-                    <tr>
-                        <td align="center">2020年 2月~8月
-                            <br><br>2021年11月~至今
-                        </td>
-                        <td align="center">補習班助教
-                            <br><br>國北教大計網中心工讀生
-                        </td>
-                    </tr>
-                </tbody>   
-            
-            </table>
-            <hr>
-        </div>
         
-        <h4><b>Music</b>
-            <table>
-                <thead>    
-                    <tr>
-                        <th align="center">抒情歌</th>
-                        <th>輕快歌</th>
-                    </tr>
-                </thead>
-
-                <tbody>        
-                    <tr>
-                        <td>
-                            <p align="center">韋禮安-<b><a href="https://www.youtube.com/watch?v=8MG--WuNW1Y">如果可以</a></b></p>
-                            <p align="center">韋禮安-<b><a href="https://www.youtube.com/watch?v=ZPALMaXLfIw">女孩</a></b></p>
-                            <p align="center">郭靜-<b><a href="https://www.youtube.com/watch?v=Hn8yhgxpzS4">陪著我的時候想著他</a></b></p>
-                        </td>
-
-                        <td>
-                            <p align="center">五月天-<b><a href="https://www.youtube.com/watch?v=qX2GsMj7154">乾杯</a></b></p>
-                            <p align="center">五月天-<b><a href="https://www.youtube.com/watch?v=WIBFnmY2YrA">笑忘歌</a></p>
-                        </td>
-                    </tr>
-                </tbody>    
-                    
+        <ol>
+            <li><a href="">羽球</a></li>
+                <p style="color: red;"><b>世界女單冠軍-<a href="https://zh.wikipedia.org/zh-tw/%E6%88%B4%E8%B3%87%E7%A9%8E">戴資穎</a></b></p>
+                <div class="place">
+                    <td>
+                        <img src="image/戴資穎.jpg" alt="戴資穎">
+                    </td>
+                    <a href="https://www.youtube.com/watch?v=J9EQ33hwH88">戴資穎精采影片</a>
+                </div>
                 
-            </table>
-        </h4>
+                <div class="position">
+                    <td>
+                    <img src="image/周天成.jpg" alt="周天成">
+                    <a href="https://www.youtube.com/watch?v=3WE8Nmp71hY">周天成精采影片</a>
+                    </td>              
+                </div>
+                <p style="color: aqua"><b>台灣羽球一哥-<a href="https://zh.wikipedia.org/zh-tw/%E5%91%A8%E5%A4%A9%E6%88%90">周天成</a></b></p>
+            <li>棒球</li>
+                <p style="color: mediumblue"><b>棒球金童<a href="https://zh.wikipedia.org/wiki/%E8%89%BE%E5%8A%9B%E5%A3%AB%C2%B7%E7%BE%85%E5%BE%B7%E9%87%8C%E5%A5%8E%E8%8C%B2">Alex Rodriguez</a></b></p>
+                <td><img src="image/A-rod.jpg" alt="A-ROD"></td>
+                <div class="a-rod"></div>    
+                    <td>
+                        <a href="https://www.youtube.com/watch?v=s7kLuhAIWUk">A-ROD單場三響砲</a>
+                        <br>
+                        <a href="https://www.youtube.com/watch?v=RohR1Sjj4l8">A-ROD三千安</a>
+                    </td>
+            <li>直排輪</li>
+                <p style="color: darkslateblue;"><b><a href="https://www.facebook.com/NTUEskating.go/">國北教你直排輪。社</a></b></p>
+                <img src="image/花式直排輪.jpg" >
+                <a href="https://www.youtube.com/watch?v=j_VbQsyu7KE">花式角標</a>
+            <li>排球</li>
+                <img src="image/排球.jpg">
+                <p style="color:mediumturquoise ;"><b><a href="https://www.youtube.com/c/%E9%8A%98%E6%8E%92%E7%94%9F%E6%B4%BBMingsVolleyLife">銘排生活</a></b></p>
+            <li><a href="https://www.youtube.com/channel/UCriy3vlLtiBov3nLdPLadUg">看飢餓遊戲</a></li>
+                <img src="image/飢餓遊戲.jpg">
+        </ol>
+        </ol>
+    </h1>
 </body>
 </html>
